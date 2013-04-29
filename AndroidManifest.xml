@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="balu.android"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application 
+        android:icon="@drawable/cch_app" 	
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar">
+    
+                
+        <activity android:name="colbertcounty.android.Select"
+            android:theme="@android:style/Theme.NoTitleBar"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="colbertcounty.android.About"
+			android:label="@string/about_title"
+			android:theme="@android:style/Theme.Dialog">
+		</activity>
+		
+	    <activity android:name="colbertcounty.android.Campgrounds"
+			android:label="@string/campgrounds"
+			android:theme="@android:style/Widget.ListView.Menu">
+		</activity>
+		
+		<activity android:name="colbertcounty.android.CampgroundsDescription"
+			android:label="@string/campgrounds"
+			android:theme="@android:style/Widget.TextView.PopupMenu">
+		</activity>
+ 
+ 	    <activity android:name="colbertcounty.android.CountyServices"
+			android:label="@string/county_services"
+			android:theme="@android:style/Widget.ListView.Menu">
+		</activity>
+		
+		<activity android:name="colbertcounty.android.CountyServicesDescrition"
+			android:label="@string/county_services"
+			android:theme="@android:style/Widget.TextView.PopupMenu">
+		</activity>
+		
+		<activity android:name="colbertcounty.android.StormShelters"
+			android:label="@string/storm_shelters"
+			android:theme="@android:style/Widget.ListView.Menu">
+		</activity>
+		
+		<activity android:name="colbertcounty.android.StormSheltersDescription"
+			android:label="@string/storm_shelters"
+			android:theme="@android:style/Widget.TextView.PopupMenu">
+		</activity>
+	
+	    <activity android:name="colbertcounty.android.PopularNames"
+			android:label="@string/popular_names"
+			android:theme="@android:style/Theme.Dialog">
+		</activity>
+		        
+    </application>
+</manifest>

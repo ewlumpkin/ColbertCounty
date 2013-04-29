@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Colbert County, AL</string>
+    <string name="origin">Origin</string>
+    <string name="campgrounds">Campgrounds</string>
+    
+    <string name="about_title">About This Application</string>
+    <string name="about_text">This application was created to add a mobile convenience to the citizens of Colbert County</string>
+     
+     <string name="popular_names">Popular Baby Names by Country</string>
+     <string name="county_services">County Services</string>
+     <string name="county_website">Colbert County Website</string>
+     <string name="courthouse_location">Courthouse Location</string>
+     <string name="storm_shelters">Storm Shelters</string>
+</resources>

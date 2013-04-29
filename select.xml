@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="horizontal"
+    android:padding="10dip" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.55"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/ButtonText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@color/titlecolor"
+            android:textSize="24.5sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="218dp"
+            android:src="@drawable/cch_app" />
+
+        <Button
+            android:id="@+id/about_button"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_blue"
+            android:text="@string/about_title" />
+
+        <Button
+            android:id="@+id/un_common_names"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_blue"
+            android:text="@string/county_services" />
+
+        <Button
+            android:id="@+id/common_names"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_blue"
+            android:text="@string/campgrounds" />
+
+        <Button
+            android:id="@+id/names_popular"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_blue"
+            android:text="@string/courthouse_location" />
+
+        <Button
+            android:id="@+id/county_website"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_blue"
+            android:text="@string/county_website" />
+    </LinearLayout>
+
+</LinearLayout>

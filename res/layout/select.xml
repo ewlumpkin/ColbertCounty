@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="horizontal"
+    android:padding="0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.55"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/TitleText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@color/titlecolor"
+            android:textSize="24.5sp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="218dp"
+            android:src="@drawable/cch_app"
+             android:layout_marginBottom="6dp" />
+        
+        <Button
+            android:id="@+id/un_common_names"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_blue"
+            android:text="@string/county_services" />
+
+        <Button
+            android:id="@+id/common_names"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_blue"
+            android:text="@string/campgrounds" />
+        
+        <Button
+            android:id="@+id/storm_shelters"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_blue"
+            android:text="@string/storm_shelters" />
+
+        <Button
+            android:id="@+id/courthouse_map"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_blue"
+            android:text="@string/courthouse_location" />
+
+        <Button
+            android:id="@+id/county_website"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_blue"
+            android:text="@string/county_website" />
+        
+        <Button
+            android:id="@+id/about_button"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_blue"
+            android:text="@string/about_title" />
+    </LinearLayout>
+
+</ScrollView>
